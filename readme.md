@@ -1,11 +1,11 @@
 # Apple II Croosword Solver
 
-Here is a program for solving crossword puzzles, working in the 128 kB (only) of an Apple IIe, IIc, or IIGS of course.
+Here is a program for solving crossword puzzles, working in the 64 kB of an Apple IIe, IIc, or IIGS of course.
 The challenge was to find the "hole words" among the 402 328 French words allowed in Scrabble, from 2 to 15 letters.
 
 Of course, the data (words and indexes) do not fit on a floppy disk, but on a hard disk (physical or virtual) and occupy about 24 MB.
 
-The indexes have been generated with a Delphi Community Edition program, present in this repository (motsfr3.zip)
+The indexes have been generated with a Delphi Community Edition program, present in this repository (wordlong.zip)
 
 ## Use
 This archive contains a ProDOS disk image (cw.po) to be used it your favourite Apple II emulator or your Apple II.
@@ -14,8 +14,9 @@ This archive contains a ProDOS disk image (cw.po) to be used it your favourite A
 * Type capital letters, or ? for unknown letters. Enter to validate. Escape or ctrl-c to exit.
 
 ## Performance
-On an Apple II or an emulator set at normal speed, the processing of each significant letter takes about 15 seconds.
-It is certainly possible to improve the performance. I have tried to use uncompressed indexes instead of RLE compression, but the search took longer.
+On an Apple II or an emulator set to normal speed, processing is now quite fast, compared to previous versions of this program.
+
+It is certainly possible to improve the performance, please feel free to suggest ideas for this.  
 
 ## Credits
 The algorithm is the one used in the French software "Easy Puss", for those who remember this database software for Apple II, published in the 80's. It is applied to letters and their positions in this case.
