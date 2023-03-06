@@ -8,7 +8,7 @@ Of course, the data (words and indexes) do not fit on a floppy disk, but on a ha
 The indexes have been generated with a Delphi Community Edition program, present in this repository (wordlong.rar)
 
 The english version is here (with 279 496 English words) : 
-https://github.com/bruno185/Apple-II-crossword-solver-v.2.0-French
+https://github.com/bruno185/Apple-II-crossword-solver-v.2.0-English
 
 ## Use
 This archive contains a ProDOS disk image (cw.po) to be used it your favourite Apple II emulator or your Apple II.
