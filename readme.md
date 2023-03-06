@@ -23,6 +23,7 @@ The algorithm is the one used in the French software "Easy Puss", for those who 
 I found the list of words here: https://github.com/Thecoolsim/French-Scrabble-ODS8
 (ods8
 .txt)
+
 ProDOS : "ProDOS 8 Technical Reference Manual", "Beneath Apple ProDOS", etc.
 
 ## Requirements to compile and run
