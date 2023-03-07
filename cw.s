@@ -334,7 +334,7 @@ showres
         sta cv
         sta ourcv 
         jsr vtab
-        cr
+        ;cr
         lda #$00
         sta ch
         sta ourch
